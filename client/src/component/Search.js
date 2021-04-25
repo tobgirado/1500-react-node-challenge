@@ -1,7 +1,8 @@
 import React from 'react';
 import './Search.css';
+import List from './List';
 
-class SearchBar extends React.Component {
+class Search extends React.Component {
     state = {
         text: "",
         resp: []
@@ -48,4 +49,4 @@ class SearchBar extends React.Component {
 }
 
 
-export default SearchBar;
+export default Search;
