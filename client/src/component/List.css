@@ -1,0 +1,7 @@
+.list{
+    width:100%;
+    display: inline-block;
+    border: 1px solid gray;
+    border-radius: 0.2em;
+    padding:2px;
+  }
