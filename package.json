@@ -1,0 +1,27 @@
+{
+  "name": "1500-react-node-challenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "test": "mocha server/tests/index.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tobgirado/1500-react-node-challenge.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tobgirado/1500-react-node-challenge/issues"
+  },
+  "homepage": "https://github.com/tobgirado/1500-react-node-challenge#readme",
+  "dependencies": {
+    "chai": "^4.3.4",
+    "express": "^4.17.1",
+    "mocha": "^8.3.2",
+    "supertest": "^6.1.3"
+  }
+}
