@@ -8,7 +8,7 @@ class List extends React.Component {
                 <div className="card-body justify-content-center align-items-center" >
                     <h5 className="card-title text-left">Results:</h5>
                     <ul className="mx-auto" style={{ width: 70 + '%' }}>
-                        {this.props.dataFromParent.reverse().map((text, index) => (
+                        {this.props.dataFromParent.map((text, index) => (
                             <li key={index} className="list my-1 text-left">{text}</li>
                         ))}
                     </ul>

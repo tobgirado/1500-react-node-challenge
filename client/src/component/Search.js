@@ -20,7 +20,10 @@ class Search extends React.Component {
                 if (res.error) {
                     alert("No introdujo ningún texto");
                 } else {
-                    this.setState({ resp: this.state.resp.concat(res.text) })
+                    let resp = this.state.resp;
+                    resp.unshift(res.text);
+                    this.setState({ resp });
+                    console.log(this.resp);
                 }
             })
     }
